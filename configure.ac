@@ -92,6 +92,7 @@ AC_SUBST(PLUGIN_LIBTOOL_FLAGS)
 AC_CONFIG_FILES([
 	Makefile
 	src/Makefile
+])
 	#lib/Makefile
 	#plugins/Makefile
 	#plugins/acpi/Makefile
@@ -112,5 +113,5 @@ AC_CONFIG_FILES([
 	#pixmaps/Makefile
 	#po/Makefile.in
 	#help/Makefile
-])
+#])
 AC_OUTPUT
